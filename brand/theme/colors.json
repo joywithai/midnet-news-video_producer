@@ -1,0 +1,11 @@
+{
+  "brand": "MidNet News",
+  "colors": {
+    "navy": "#071B36",
+    "red": "#E32636",
+    "white": "#FFFFFF",
+    "ink": "#101820",
+    "muted": "#A8B4C2"
+  },
+  "note": "Values are initial project defaults; confirm against official channel brand guidelines before publication."
+}

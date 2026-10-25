@@ -1,0 +1,1 @@
+Place only fonts whose commercial use and redistribution licenses are verified. Suggested roles: headline, body, subtitle. No font files are bundled because the channel's approved typeface and font license are not provided. The current renderer uses a host's DejaVu Sans fallback for draft-only rendering.

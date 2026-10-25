@@ -1,0 +1,6 @@
+{
+  "release_gate": {"require_human_approval": true, "max_automatic_retries_per_stage": 0, "description_characters": {"min": 800, "max": 1000}},
+  "editorial_review_fields": ["subtitle_sync", "visual_accuracy", "thumbnail_accuracy", "copyright_review", "audio_quality", "scene_review"],
+  "technical": {"full_decode_required": true, "target_resolution": "1920x1080", "target_fps": 30, "thumbnail_resolution": "1280x720"},
+  "manual_only_in_v0_1": ["visual identity/event/date verification", "subtitle-to-speech fidelity", "copyright/license verification", "black/frozen frame judgment", "audio loudness and clipping", "thumbnail factual consistency", "mobile-size readability"]
+}

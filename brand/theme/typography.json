@@ -1,0 +1,8 @@
+{
+  "font_roles": {
+    "headline": {"family": "MidNetHeadline", "weight": "700", "folder": "brand/fonts/headline", "purpose": "headlines and thumbnail copy"},
+    "body": {"family": "MidNetBody", "weight": "400", "folder": "brand/fonts/body", "purpose": "supporting information"},
+    "subtitle": {"family": "MidNetSubtitle", "weight": "700", "folder": "brand/fonts/subtitle", "purpose": "captions"}
+  },
+  "policy": "No font binaries are bundled. Confirm commercial license and redistribution rights before use. v0.1 rendering currently falls back to system DejaVu Sans when configured font files are absent."
+}

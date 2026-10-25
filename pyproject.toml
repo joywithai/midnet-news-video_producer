@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "midnet-news-video-producer"
+version = "0.1.0"
+description = "A local-first, auditable MidNet News video production workflow"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
+
+[project.optional-dependencies]
+asr = ["faster-whisper>=1.0"]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+midnet = "midnet_news.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["midnet_news*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
